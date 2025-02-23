@@ -1,0 +1,74 @@
+[
+    {
+    "group": "alkaliMetal",
+    "gridColumn": "4",
+    "gridRow": "2",
+    "annotation": true,
+    "name": "Alkali Metals"
+  },
+  {
+    "group": "alkalineEarthMetal",
+    "gridColumn": "5",
+    "gridRow": "2",
+    "annotation": true,
+    "name": "Alkali Earth Metals"
+  },
+  {
+    "group": "transitionMetal",
+    "gridColumn": "6",
+    "gridRow": "2",
+    "annotation": true,
+    "name": "Transition Metals"
+  },
+  {
+    "group": "basicMetal",
+    "gridColumn": "7",
+    "gridRow": "2",
+    "annotation": true,
+    "name": "Basic Metals"
+  },
+  {
+    "group": "semimetal",
+    "gridColumn": "8",
+    "gridRow": "2",
+    "annotation": true,
+    "name": "Semimetals"
+  },
+  {
+    "group": "nonMetal",
+    "gridColumn": "9",
+    "gridRow": "2",
+    "annotation": true,
+    "name": "Nonmetals"
+  },
+  {
+    "group": "halogen",
+    "gridColumn": "10",
+    "gridRow": "2",
+    "annotation": true,
+    "name": "Halogens"
+  },
+  {
+    "group": "nobleGas",
+    "gridColumn": "11",
+    "gridRow": "2",
+    "annotation": true,
+    "name": "Noble Gases"
+  },
+  {
+    "group": "lanthanide",
+    "gridColumn": "3",
+    "gridRow": "6",
+    "annotation": true,
+    "numbers": "57-71",
+    "name": "Lanthanides"
+  },
+  {
+    "group": "actinide",
+    "gridColumn": "3",
+    "gridRow": "7",
+    "annotation": true,
+    "numbers": "89-103",
+    "name": "Actinides"
+  }
+]

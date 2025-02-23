@@ -29,13 +29,11 @@ body {
 }
 
 .table {
-  color: #00ffcc;
   display: grid;
   grid-template-columns: repeat(18, 1fr);
   padding: 20px;
   justify-content: center;
   font-weight: bold;
-  text-shadow: 0 0 5px #00ffcc, 0 0 10px #00ffcc, 0 0 15px #008080;
 }
 /*button*/
 .elements {
@@ -63,46 +61,86 @@ body {
 
 /*color Elements*/
 .alkaliMetal {
-  background-color: #6b1919;
-  color: #ff3333;
+  background-color: #510000;
+  color: #fc7979;
+  text-shadow: 0 0 5px #ff6666, 0 0 10px #ff3333, 0 0 15px #990000;
 }
 .alkalineEarthMetal {
   background-color: #4c3000;
-  color: #ff9933;
+  color: #fac187;
+  text-shadow: 0 0 5px #ffaa55, 0 0 10px #ff9933, 0 0 15px #cc6600;
 }
 .transitionMetal {
   background-color: #333000;
-  color: #ffff33;
+  color: #ffffab;
+  text-shadow: 0 0 5px #ffff66, 0 0 10px #ffff33, 0 0 15px #999900;
 }
 .basicMetal {
   background-color: #003333;
-  color: #33ffff;
+  color: #b1ffff;
+  text-shadow: 0 0 5px #66ffff, 0 0 10px #33ffff, 0 0 15px #008080;
 }
 .semimetal {
   background-color: #002000;
-  color: #00ff33;
+  color: #a0ffb3;
+  text-shadow: 0 0 5px #33ff66, 0 0 10px #00ff33, 0 0 15px #009900;
 }
 .nonMetal {
   background-color: #001033;
-  color: #00ffff;
+  color: #b1ffff;
+  text-shadow: 0 0 5px #33ffff, 0 0 10px #00ffff, 0 0 15px #006699;
 }
 .halogen {
   background-color: #500650;
-  color: #ff00ff;
+  color: #fe77fe;
+  text-shadow: 0 0 5px #ff33ff, 0 0 10px #ff00ff, 0 0 15px #990099;
 }
 .nobleGas {
   background-color: #220033;
-  color: #cc66ff;
+  color: #d693f8;
+  text-shadow: 0 0 5px #d699ff, 0 0 10px #cc66ff, 0 0 15px #660099;
 }
 .lanthanide {
   background-color: #331122;
   margin-top: 20px;
-  color: #ff33aa;
+  color: #fd85cb;
+  text-shadow: 0 0 5px #ff66cc, 0 0 10px #ff33aa, 0 0 15px #990066;
 }
 .actinide {
   background-color: #220000;
-  color: #ff0000;
+  color: #fa4949;
+  text-shadow: 0 0 5px #ff3333, 0 0 10px #ff0000, 0 0 15px #990000;
 }
 #list_element {
   margin-top: 0px;
+}
+.alkaliMetal #list_element {
+  text-shadow: 0 0 2px #ff6666, 0 0 5px #ff3333, 0 0 10px #990000;
+}
+.alkalineEarthMetal #list_element {
+  text-shadow: 0 0 2px #ffaa55, 0 0 5px #ff9933, 0 0 10px #cc6600;
+}
+.transitionMetal #list_element {
+  text-shadow: 0 0 2px #ffff66, 0 0 5px #ffff33, 0 0 10px #999900;
+}
+.basicMetal #list_element {
+  text-shadow: 0 0 2px #66ffff, 0 0 5px #33ffff, 0 0 10px #008080;
+}
+.semimetal #list_element {
+  text-shadow: 0 0 2px #33ff66, 0 0 5px #00ff33, 0 0 10px #009900;
+}
+.nonMetal #list_element {
+  text-shadow: 0 0 2px #33ffff, 0 0 5px #00ffff, 0 0 10px #006699;
+}
+.halogen #list_element {
+  text-shadow: 0 0 2px #ff33ff, 0 0 5px #ff00ff, 0 0 10px #990099;
+}
+.nobleGas #list_element {
+  text-shadow: 0 0 2px #d699ff, 0 0 5px #cc66ff, 0 0 10px #660099;
+}
+.lanthanide #list_element {
+  text-shadow: 0 0 2px #ff66cc, 0 0 5px #ff33aa, 0 0 10px #990066;
+}
+.actinide #list_element {
+  text-shadow: 0 0 2px #ff3333, 0 0 5px #ff0000, 0 0 10px #990000;
 }
