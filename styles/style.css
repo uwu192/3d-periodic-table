@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap");
+* {
+  font-family: "Orbitron", sans-serif;
+  margin: 0;
+}
+body {
+  background-color: #1e1e2e;
+  color: black;
+  text-align: center;
+}
+@keyframes neonGlow {
+  0% {
+    text-shadow: 0 0 10px #ff0000, 0 0 20px #ff4500;
+  }
+  50% {
+    text-shadow: 0 0 10px #00ff00, 0 0 20px #32cd32;
+  }
+  100% {
+    text-shadow: 0 0 10px #0000ff, 0 0 20px #1e90ff;
+  }
+}
+
+#title {
+  font-size: min(5vw, 8vh);
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  animation: neonGlow 3s infinite alternate;
+}
+
+.table {
+  color: #00ffcc;
+  display: grid;
+  grid-template-columns: repeat(18, 1fr);
+  padding: 20px;
+  justify-content: center;
+  font-weight: bold;
+  text-shadow: 0 0 5px #00ffcc, 0 0 10px #00ffcc, 0 0 15px #008080;
+}
+/*button*/
+.elements {
+  width: 5.1vw;
+  height: 8.8vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  font-weight: bold;
+  cursor: pointer;
+  height: 9vh;
+  width: 5vw;
+}
+.symbol {
+  font-size: 200%;
+}
+.numbers {
+  font-size: 77%;
+}
+.name {
+  font-size: 80%;
+}
+
+/*color Elements*/
+.alkaliMetal {
+  background-color: #6b1919;
+  color: #ff3333;
+}
+.alkalineEarthMetal {
+  background-color: #4c3000;
+  color: #ff9933;
+}
+.transitionMetal {
+  background-color: #333000;
+  color: #ffff33;
+}
+.basicMetal {
+  background-color: #003333;
+  color: #33ffff;
+}
+.semimetal {
+  background-color: #002000;
+  color: #00ff33;
+}
+.nonMetal {
+  background-color: #001033;
+  color: #00ffff;
+}
+.halogen {
+  background-color: #500650;
+  color: #ff00ff;
+}
+.nobleGas {
+  background-color: #220033;
+  color: #cc66ff;
+}
+.lanthanide {
+  background-color: #331122;
+  margin-top: 20px;
+  color: #ff33aa;
+}
+.actinide {
+  background-color: #220000;
+  color: #ff0000;
+}
+#list_element {
+  margin-top: 0px;
+}
